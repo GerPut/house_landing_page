@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+html, body {
+    height: 100%;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.gradient {
+    background: rgb(25, 47, 123);
+    background: linear-gradient(120deg, rgba(25, 47, 123, 1) 0%, rgba(255, 216, 155, 1) 0%, rgba(25, 47, 123, 1) 110%)
+}
+
+.nav-item {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.nav-item:hover {
+    font-weight: bold;
+}
+
+.logo1 {
+    color: #FFFFE7;
+}
+
+.navbar {
+    border-bottom: 5px solid #FFFFE7;
+}
+
+.page-header {
+    margin-top: 4rem;
+    font-size: 30px;
+}
+
+.name {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 120px;
+}
+
+.carousel-item {
+    border: 1px solid white;
+}
+
+.special {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 60px;
+}
+
+.special2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+}
+
+.countdown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 350px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.bitcoin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 350px;
+    margin-top: 20px;
+    background-color: #FFFFE7;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.img-fluid {
+    height: 75px;
+}
+
+.countdownhead {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 40px;
+}
+
+.headings {
+    display: flex;
+    margin-right: 10px;
+}
+
+.timedisplay {
+    height: 80px;
+    width: 250px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.day, .hour, .minute, .second {
+    margin-bottom: 0;
+}
+
+.timerp {
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+.listitem:hover {
+    color: rgb(25, 47, 123);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.displayprice {
+    height: 80px;
+    width: 250px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.fab.fa-bitcoin {
+    font-size: 25px;
+}
+
+.contact {
+    height: 1000px;
+}
+
+.frame {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border: 1px solid black;
+    height: 400px;
+    width: 500px;
+}
+
+.bottomimage {
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+.page-footer {
+    border-top: 5px solid #FFFFE7;
+}
+
+.fab:hover {
+    cursor: pointer;
+}
+
+@media (max-width:670px) {
+    .housepic {
+        height: 400px;
+        width: 450px;
+    }
+}
