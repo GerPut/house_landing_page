@@ -19,8 +19,9 @@ html, body {
     font-weight: bold;
 }
 
-.logo1 {
+.fas.fa-home {
     color: #FFFFE7;
+    font-size: 35px;
 }
 
 .navbar {
@@ -193,7 +194,7 @@ html, body {
         width: 400px;
     }
     .page-footer {
-        margin-top: -250px;
+        margin-top: -230px;
     }
     .flex-center {
         font-size: 10px;
