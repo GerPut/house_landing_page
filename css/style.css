@@ -173,6 +173,9 @@ html, body {
 }
 
 @media (max-width:670px) {
+    .navbar-toggler {
+        margin-right: 10px;
+    }
     .name {
         font-size: 100px;
     }
