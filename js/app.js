@@ -1,10 +1,12 @@
+//Bitcoin Price Displayer
+
 const display = document.querySelector('.displayprice')
 
 
 axios.get('https://api.cryptonator.com/api/ticker/btc-usd')
     .then(res => {
         let thePrice = res.data.ticker.price
-        let newPrice = Math.round(thePrice * 100) / 100
+        let newPrice = (Math.round(thePrice * 100) / 100).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
         display.innerHTML = `$${newPrice}`
     })
 
@@ -20,7 +22,7 @@ const getBTCprice = async () => {
         console.log("ERROR", err)
     }
 }
-
+////////////////////////////////////////////////
 
 
 
