@@ -6,8 +6,8 @@ html, body {
 }
 
 .gradient {
-    background: rgb(25, 47, 123);
-    background: linear-gradient(120deg, rgba(25, 47, 123, 1) 0%, rgba(255, 216, 155, 1) 0%, rgba(25, 47, 123, 1) 110%)
+    background: #FDE582;
+    background: linear-gradient(120deg, rgb(253, 229, 130) 0%, rgb(253, 229, 130) 0%, #FBB072 110%)
 }
 
 .nav-item {
@@ -30,12 +30,32 @@ html, body {
 
 .page-header {
     margin-top: 4rem;
+    height: auto;
     font-size: 30px;
+    background-image: url(/images/house22.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: -300px;
+    background-color: #000;
 }
+
+/* .bgimg {
+    height: 100vh;
+    width: 100%;
+    z-index: -100;
+} */
 
 .name {
     font-family: 'Abril Fatface', cursive;
-    font-size: 120px;
+    font-size: 90px;
+    display: block;
+    white-space: no-wrap;
+    margin-top: 110px;
+}
+
+.top {
+    margin-bottom: 90px;
 }
 
 .housepic {
@@ -50,11 +70,13 @@ html, body {
 .special {
     font-family: 'Abril Fatface', cursive;
     font-size: 60px;
+    color: #000;
 }
 
 .special2 {
     font-family: 'Abril Fatface', cursive;
     font-size: 50px;
+    color: #000;
 }
 
 .countdown {
