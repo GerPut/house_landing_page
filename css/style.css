@@ -195,13 +195,25 @@ html, body {
     .name {
         font-size: 100px;
     }
-    .housepic {
+    /* .housepic {
         height: 250px;
         width: 350px;
         margin-top: 30px;
         margin: auto;
         display: block;
         margin-top: 30px;
+    } */
+    .page-header {
+        margin-top: 4rem;
+        height: auto;
+        background-image: url(/images/house22.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #000;
+    }
+    h2.name {
+        font-size: 30px;
     }
     .special {
         font-size: 40px;
