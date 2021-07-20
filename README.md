@@ -1,4 +1,4 @@
-House Landing Page
+## House Landing Page Project
 
 This project took a week to complete. It is a basic landing page with a theme for VR house auctions. The project was mainly built with Bootsrap 5 and Javascript. I also added additional CSS styling. I learned mostly how to use bootstrap by using a few of the components available. The project was a challenge as I am used to only use CSS to style. The documentation on Bootstrap's site is very clear and I had to read up on how to use the framework during the completion of this project.
 
